@@ -1,0 +1,89 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@media (max-width: 992px) {
+
+
+    body{
+            max-width: 100%;
+    }
+    .menu-header{
+        display: none;
+    }
+
+    .udapt-menu{
+        display: inline-flex;
+    }
+    .center-row{
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .form-wrapper{
+        width: 100%;
+        max-width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .items-menu{
+        width: 100%;
+    }
+      .col-12{
+          padding: 0;
+      }
+    .header-form{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .header-form input[type=text],input[type=date], input[type=submit]{
+        width: 100%;
+    }
+
+    .header-form input[type=text]{
+    border-bottom: 1px solid #e6e6e6 ;
+    }
+
+    .column-2 .section-trips_gallery-wrapper:nth-child(n+3){
+        width: 100%;
+    }
+
+    .wrapper-trip{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        max-height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .wrapper-trip img {
+        width: 100%;
+    }
+ 
+    .wrapper-text{
+        padding: 0 10px;
+    }
+
+    header{
+        padding: 0 10px !important;
+    }
+  }
+
+
+  @media (max-width: 568px) {
+
+  .flights-list_column-item{
+    flex-wrap: wrap;
+}
+
+.section-flights_category{
+  width: 80%;
+}
+
+.flights-list_column td:last-child {
+    display: none;
+}
+}

@@ -1,0 +1,529 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/*sum custom rest*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: white;
+}
+.active{
+    color: #ff4b64;
+}
+a{
+    color: white; 
+    text-decoration: none;
+}
+
+a:visited, a:hover{
+    color: white;
+}
+.container{
+    padding: 0;
+}
+
+.center-row{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.header-wrapper-header{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/*header*/
+
+.logo_text{
+font-size: 21px;
+font-weight: 900;
+}
+
+
+.menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.header-menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+
+.site-header{
+    padding: 30px 0 117px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.login-button{
+ padding: 15px 35px;
+ background-color: transparent;
+ color: white;
+}
+
+.header-present-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    max-height: 622px;
+    min-height: 330px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    letter-spacing: 4px;
+}
+
+.header-present-text_title{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.header-present-text_sup{
+    font-size: 25px;
+    margin-top: 65px;
+}
+/*header-end*/
+
+
+
+/*input-section*/
+
+.form-wrapper{
+padding: 0;
+margin: 0 auto;
+top: -35px;
+background: white;
+}
+
+.header-form{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+flex-wrap: nowrap;
+border: 1px solid #e6e6e6;
+border-right-color: #e6e6e6;
+top: -35px;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+}
+
+.header-form input[type='text'], input[type='date'], input[type='submit']{
+line-height: 55px;
+border: none;
+background-color: transparent;
+color: #818181;
+}
+.header-form input[type='text']{
+    width: 35%;
+
+}
+
+.header-form input[type='text'], input[type='date']{
+    padding-left: 35px;
+}
+
+input[type='date']{
+    width: 18%;
+}
+
+input[type='submit']{
+    width: 12%;
+    color: white;
+    background-color: #ff4b64;
+}
+
+.header-form input[type='text']{
+    border-right: 1px solid #e6e6e6;
+}
+/*input-section-end*/
+
+
+/*section-flights*/
+.section-flights{
+    color: black;
+    font-weight: 400;
+}
+
+.section_title-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 70px;
+    color: black;
+    font-weight: 400;
+}
+
+.section_title-wrapper h3{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.section-flights_category {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.flights-list tbody{
+    padding: 0 10px;
+}
+
+.flights-list_column{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+}
+
+.flights-list_column td {
+
+}
+.flights-list_column-item span{
+    width: 60px;
+    height: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #ff4b64;
+    border: 1px solid #ff4b64
+}
+.flights-list_column-item{
+    width: 100%;
+}
+/*section-flights-end*/
+
+/*section-hotel*/
+.section-hotel{
+    padding-top: 150px;
+}
+
+.section-hotel_list{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.section-hotel_list-item{
+margin-bottom: 30px;
+padding-bottom: 25px;
+border: 1px solid #e6e6e6;
+}
+
+.section-hotel_list-item img{
+    width: 100%;
+    height: 44vh;
+    max-height: 200px;
+}
+
+.section-hotel_list-item span{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.section-hotel{
+    color: black;
+}
+
+.section-hotel_list-item-content{
+    padding: 0 10px;
+}
+
+.section-hotel_list-item-content h4{
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.section-hotel_list-item-content button{
+    background-color: transparent;
+    border: 1px solid #ff4b64;
+    color: #ff4b64;
+    width: 120px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*section-hotel-end*/
+
+/*section-trips*/
+.section-trips{
+    padding-top: 90px;
+    color: black;
+    font-weight: 400;
+}
+
+.section-trips_gallery-wrapper{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.column-1 .section-trips_gallery-wrapper{
+    height: 82.5vh;
+    max-height: 248px;
+}
+
+.column-1 .section-trips_gallery-wrapper:first-child{
+    height: 170vh;
+    max-height: 526px;
+}
+.section-trips_gallery-wrapper {
+background-position: center;
+background-size: 100%;
+}
+
+.column-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.column-2 .section-trips_gallery-wrapper{
+    width: 100%;
+}
+.column-2 .section-trips_gallery-wrapper:nth-child(n+3){
+    width: 48%;
+}
+
+.column-2 .section-trips_gallery-wrapper:nth-child(2n){
+    margin-right: 0;
+}
+
+.column-2 .section-trips_gallery-wrapper{
+    height: 82.5vh;
+    max-height: 248px;
+}
+
+/*section-trips-end*/
+
+/*section-journey*/
+.section-journey{
+    padding-top: 90px;
+    color: black;
+    font-weight: 400;
+}
+
+.wrapper-trip{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    line-height: 22px;
+    max-height: 235px;
+    margin-bottom: 30px;
+}
+
+.wrapper-trip h3{
+    padding: 20px 0;
+}
+.wrapper-trip p{
+
+}
+
+.wrapper-trip img{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.wrapper-trip h3{
+    font-weight: 900;
+}
+/*section-journey-end*/
+
+
+/*footer*/
+
+footer{
+    color: black;
+    font-weight: 400;
+    padding-top: 90px;
+}
+footer a{
+    color: black;
+}
+
+footer a:visited, footer a:hover{
+    color: black;
+}
+.textwidget{
+    padding-top: 25px;
+    line-height: 35px ;
+}
+.widget-title{
+    font-size: 25px;
+}
+
+.widgets_wrapper{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.flights-list_column-item{
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+.flights-list_column-item td{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+td i {
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+tbody{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+
+.udapt-menu{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 120px;
+    height: 35px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.items-menu{
+    width: 80%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 99999;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items-menu a{
+    margin-bottom: 25px;
+}
+.items-menu span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.udapt-menu{
+    display: none;
+}
