@@ -2,7 +2,7 @@
 <a name='hotel'>
 <section  class='section-hotel'>
 <div class='section_title-wrapper'>
-        <h3>Hotels KK</h3>
+        <h3>Hotels</h3>
         <nav class='section-flights_category col-6'>
             <span class='active'>Best Price</span>
             <span>Distance</span>
