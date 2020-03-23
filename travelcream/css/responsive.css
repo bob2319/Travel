@@ -83,7 +83,5 @@
   width: 80%;
 }
 
-.flights-list_column td:last-child {
-    display: none;
-}
+
 }
