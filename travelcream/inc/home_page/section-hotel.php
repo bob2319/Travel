@@ -22,7 +22,7 @@ foreach( $myposts as $post ):
     setup_postdata( $post );
     $title = get_the_title();
     ?>
-<div class='col-xl-4 col-md-4 offset-md-0 col-sm-10 offset-sm-1 col-8 offset-2'>
+<div class='col-xl-4 col-md-4 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1'>
 <div class='section-hotel_list-item'>
 
 <!--get gruop-->
