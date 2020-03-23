@@ -1,5 +1,5 @@
 
-<a name='hotel'>
+<a name='hotel'></a>
 <section  class='section-hotel'>
 <div class='section_title-wrapper'>
         <h3>Hotels</h3>
@@ -55,5 +55,5 @@ wp_reset_postdata(); // сбрасываем переменную $post
 ?>
 
 </div>
-<p style='text-align: right;'>Show all</p>
+<p style='text-align: right;'><a class='section-link'>Show all</a><p>
 </section>

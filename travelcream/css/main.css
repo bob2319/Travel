@@ -13,6 +13,25 @@ body{
 .active{
     color: #ff4b64;
 }
+
+nav span{
+    cursor: pointer;
+}
+.section-link{
+display: inline-block;
+text-align: right;
+color: black;
+cursor: pointer;
+}
+
+.section-link:hover{
+    color: black;
+}
+
+section p{
+    cursor: pointer;
+}
+
 a{
     color: white; 
     text-decoration: none;
@@ -324,7 +343,7 @@ border: 1px solid #e6e6e6;
 
 .section-trips_gallery-wrapper{
     background-position: center;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;

@@ -1,5 +1,5 @@
 
-    <a name='activity'>
+    <a name='activity'></a>
 <div class='section-trips'>
 <div class='section_title-wrapper col-12'>
         <h3>Attractions</h3>
@@ -44,5 +44,5 @@
         <?php endwhile; ?>
 
         <?php endif; ?>
-        <p style='text-align: right;'>Show all</p>
+        <p style='text-align: right;'><a class='section-link'>Show all</a></p>
         </div>

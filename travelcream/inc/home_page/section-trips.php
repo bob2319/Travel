@@ -37,5 +37,5 @@ endif;
 
 ?>
 </div>
-<p style='text-align: right;'>See all Trips</p>
+<p style='text-align: right;'><a class='section-link'>See all Trips</a></p>
 </section>

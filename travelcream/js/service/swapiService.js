@@ -1,12 +1,13 @@
 async function getUserAsync() 
 {
-  let response = await fetch(`http://testing.raritet-2005.com.ua/wp-content/themes/travelcream/js/service/flights.json`);
+  let response = await fetch(`http://testdump.raritet-2005.com.ua//wp-content/themes/travelcream/js/service/flights.json`);
   let data = await response.json()
   return data;
 }
 
 getUserAsync()
   .then(data => {
+      console.log('data find');
       console.log(data)
     data.map(item => {
         const {company, segment, id, points  } = item;
