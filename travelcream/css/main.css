@@ -116,8 +116,9 @@ font-weight: 900;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    min-height: 32vh;
+    height: 70vh;
     max-height: 622px;
-    min-height: 330px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -521,7 +522,7 @@ tbody{
 }
 
 .items-menu{
-    width: 80%;
+    width: 100%;
     position: fixed;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
