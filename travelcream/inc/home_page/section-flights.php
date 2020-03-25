@@ -17,10 +17,11 @@
                     <td>Arrival</td>
                     <td>Time</td>
                     <td>Price</td>
+                </tr>
             </thead>
                     <tbody>
                     </tbody>
-            </tr>
+
         </table>
 </section>
 
