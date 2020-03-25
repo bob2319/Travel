@@ -124,7 +124,7 @@ font-weight: 900;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    min-height: 32vh;
+    min-height: 450px;
     height: 70vh;
     max-height: 622px;
     -webkit-box-orient: vertical;

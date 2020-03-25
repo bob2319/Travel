@@ -21,7 +21,6 @@
             </thead>
                     <tbody>
                     </tbody>
-
         </table>
 </section>
 

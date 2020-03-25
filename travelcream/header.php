@@ -57,7 +57,7 @@ while( have_rows('present') ): the_row();
 				] ); ?>
 
 				<!-- logo button -->
-				<div class='header-wrapper-header col-5 offset-0'>
+				<div class='header-wrapper-header col-4 col-sm-5'>
 				<button class='login-button'> Login </button>
 				</div>
 
