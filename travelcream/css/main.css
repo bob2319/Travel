@@ -186,6 +186,7 @@ line-height: 55px;
 border: none;
 background-color: transparent;
 color: #818181;
+min-height: 63px;
 }
 .header-form input[type='text']{
     width: 35%;

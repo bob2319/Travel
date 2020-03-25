@@ -86,4 +86,8 @@
   width: 80%;
 }
 
+.login-button{
+    padding: 0;
+    border: none;
+}
 }
