@@ -21,11 +21,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<span class='udapt-menu'>MENU</span>
-	<div style='display: none' class='items-menu'>
-	<span>CLOSE</span>
-    </div>
+<div style='display: none' class='items-menu'>
+				<span>CLOSE</span>
+    			</div>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'travelcream' ); ?></a>
 <?php if( have_rows('present') ): 
 while( have_rows('present') ): the_row();    
@@ -35,10 +33,10 @@ while( have_rows('present') ): the_row();
     $sup = get_sub_field('present_title_sup');
     ?>
 	<header style='background-image: url(<?php echo $image?>)' id="masthead" class="site-header">
-		<div class='container'>
-			<div class='row center-row'>
+			<div class='row center-row'>			
+				<span class='udapt-menu'>MENU</span>
 				<!-- logo -->
-				<div class='logo col-2'>
+				<div class='logo col-5 col-sm-2'>
 					<?php 
 					$logo = the_custom_logo();
 					if( $logo ){
@@ -59,7 +57,7 @@ while( have_rows('present') ): the_row();
 				] ); ?>
 
 				<!-- logo button -->
-				<div class='header-wrapper-header col-2 offset-4'>
+				<div class='header-wrapper-header col-5 offset-0'>
 				<button class='login-button'> Login </button>
 				</div>
 
@@ -67,7 +65,6 @@ while( have_rows('present') ): the_row();
 					<h2 class='header-present-text_title'><?php echo $title?></h2>
 					<p class='header-present-text_sup'><?php echo $sup?></p>
 				</div>
-			</div>
 		</div>
 	</header><!-- #masthead -->
 	<?php endwhile; ?>

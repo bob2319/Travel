@@ -15,7 +15,7 @@
 	</div><!-- container -->
 	<a name='deals'></a>
 	<footer style='padding-top: 90px' id="colophon" class="site-footer col-10 offset-1 col-sm-12 offset-sm-0">
-	<div class=container>
+	<div class=container-fluid>
 	<div class='row widgets_wrapper'>
 	<?php dynamic_sidebar( 'Cities' ); ?>
 	<?php dynamic_sidebar( 'Explore' ); ?>

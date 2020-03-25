@@ -72,12 +72,15 @@
     }
   }
 
-
-  @media (max-width: 568px) {
-
-  .flights-list_column-item{
-    flex-wrap: wrap;
+  @media screen and (max-width: 600px) {
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
 }
+  @media (max-width: 568px) {
 
 .section-flights_category{
   width: 80%;

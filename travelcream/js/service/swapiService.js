@@ -28,7 +28,7 @@ getUserAsync()
             <i>${origin} - ${destination}</i></td>
         <td><span>${points}</span></td>
         </tr>`)
-        $('.flights-list').append(column)
+        $('.flights-list tbody').append(column)
     });
   })
   .catch( err => console.log(err));
