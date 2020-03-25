@@ -2,6 +2,10 @@
 
 /*sum custom rest*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+.row{
+    margin: 0 auto;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -22,6 +26,7 @@ display: inline-block;
 text-align: right;
 color: black;
 cursor: pointer;
+padding-right: 15px;
 }
 
 .section-link:hover{
@@ -342,7 +347,14 @@ border: 1px solid #e6e6e6;
     font-weight: 400;
 }
 
+.section-trips_gallery {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 .section-trips_gallery-wrapper{
+    max-width: 100%;
+    margin: 0 auto;
     background-position: center;
     background-size: cover !important;
     background-repeat: no-repeat;

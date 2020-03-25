@@ -266,7 +266,6 @@ function mytheme_require_plugins() {
     tgmpa( $plugins, $config );
  
 }
- 
 
 
  

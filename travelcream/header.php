@@ -73,4 +73,4 @@ while( have_rows('present') ): the_row();
 	<?php endwhile; ?>
 <?php endif; ?>
 	<div id="content" class="site-content">
-	<div class='container'>
+	<div class='container-fluid'>
