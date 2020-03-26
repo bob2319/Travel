@@ -72,22 +72,15 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
-    table td:before {
-      content: attr(data-label);
-      float: left;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-}
+
   @media (max-width: 568px) {
+
+  .flights-list_column-item{
+    flex-wrap: wrap;
+}
 
 .section-flights_category{
   width: 80%;
 }
 
-.login-button{
-    padding: 0;
-    border: none;
-}
 }
